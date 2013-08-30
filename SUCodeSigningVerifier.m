@@ -68,6 +68,7 @@ finally:
 
 + (BOOL)hostApplicationIsCodeSigned
 {
+    return YES;
     // This API didn't exist prior to 10.6.
     if (SecCodeCopySelf == NULL) return NO;
     
